@@ -18,10 +18,25 @@ public class FiguraGeometrica {
         this.numLados = numLados;
         this.nombre = nombre;
     }
+    public FiguraGeometrica() throws Exception {
 
+    }
+    public int getNumLados() {
+        return numLados;
+    }
 
+    public void setNumLados(int numLados) {
+        this.numLados = numLados;
+    }
 
+    public String getNombre() {
+        return nombre;
+    }
    
+    
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
 
 
 }

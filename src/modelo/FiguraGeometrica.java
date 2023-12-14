@@ -4,6 +4,25 @@ public class FiguraGeometrica {
 
     private int numLados;
     private String nombre;
+
+    public int getNumLados() {
+        return this.numLados;
+    }
+
+    public void setNumLados(int numLados) {
+        this.numLados = numLados;
+    }
+
+    public String getNombre() {
+        return this.nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public FiguraGeometrica() {
+    }
     private static final int MIN_NUMBER = 3;
 
     public void showInfo() {
